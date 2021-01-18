@@ -42,3 +42,19 @@ p:nth-last-child(4) {
 span:only-of-type {
     color: rgb(206, 199, 211);
 }
+
+#parent3>ol {
+    background: lawngreen;
+}
+
+#parent2>span {
+    color: rgb(191, 202, 29);
+}
+
+#parent3 li {
+    color: rgb(2, 43, 41);
+}
+
+ol>li {
+    background: lightslategrey;
+}
