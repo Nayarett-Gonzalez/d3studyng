@@ -25,3 +25,10 @@ p {
 [class] {
     background: darkkhaki;
 }
+
+
+/* 
+div[id=parent1] {}  #parent1
+*/
+
+div:not(#parent1)
