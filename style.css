@@ -24,9 +24,15 @@ p {
 } */
 
 
+/* ELEMENTS HAVING A PARTICULAR ATTRIBUTE */
+
+
 /* [class] {
     background: darkkhaki;
 } */
+
+
+/* ELEMENT DIV HAVING THE ATTRIBUTE ID = VALUE */
 
 
 /* 
@@ -34,9 +40,15 @@ div[id=parent1] {}  #parent1
 */
 
 
+/* ELEMENT DIV NOT HAVING THE #NAME */
+
+
 /* div:not(#parent1) {
     background: rgb(168, 166, 175);
 } */
+
+
+/* ELEMENT DIV WHERE THE ID IDENTIFICATOR BEGINS WITH PAR */
 
 
 /* div[id^=par] {
@@ -44,9 +56,15 @@ div[id=parent1] {}  #parent1
 } */
 
 
+/* ELEMENT DIV WHERE THE ID IDENTIFICATOR HAVE THE STRING ENT */
+
+
 /* div[id*=ent] {
     background: rgb(113, 162, 185);
 } */
+
+
+/* ELEMENT DIV WHERE THE ID IDENTIFICATOR ENDS WITH 2 */
 
 div[id$="2"] {
     background: rgb(185, 178, 113);
