@@ -8,11 +8,33 @@ p {
     color: rgb(60, 60, 114)
 }
 
-p:first-child {
+
+/* p:first-child {
     background: darksalmon;
 }
 
 p:last-child {
     background: darkslategrey;
     color: floralwhite;
+} */
+
+p:first-of-type {
+    background: darkslategrey;
+    color: floralwhite;
+}
+
+span:last-of-type {
+    background: rgb(116, 27, 64);
+    color: floralwhite;
+}
+
+
+/* Busca el elemento ubicado en la  */
+
+p:nth-child(2) {
+    color: greenyellow;
+}
+
+p:nth-last-child(4) {
+    color: rgb(153, 32, 147);
 }
