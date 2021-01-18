@@ -38,6 +38,16 @@ div[id=parent1] {}  #parent1
     background: rgb(168, 166, 175);
 } */
 
-div[id^=par] {
+
+/* div[id^=par] {
     background: rgb(190, 178, 178);
+} */
+
+
+/* div[id*=ent] {
+    background: rgb(113, 162, 185);
+} */
+
+div[id$="2"] {
+    background: rgb(185, 178, 113);
 }
