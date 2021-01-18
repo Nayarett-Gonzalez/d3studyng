@@ -33,6 +33,11 @@ p {
 div[id=parent1] {}  #parent1
 */
 
-div:not(#parent1) {
+
+/* div:not(#parent1) {
     background: rgb(168, 166, 175);
+} */
+
+div[id^=par] {
+    background: rgb(190, 178, 178);
 }
