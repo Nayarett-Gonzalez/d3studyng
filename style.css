@@ -18,17 +18,21 @@ p {
 }
  */
 
-#parent3 {
-    background: rgb(168, 166, 175);
-}
 
-[class] {
+/* #parent3 {
+    background: rgb(168, 166, 175);
+} */
+
+
+/* [class] {
     background: darkkhaki;
-}
+} */
 
 
 /* 
 div[id=parent1] {}  #parent1
 */
 
-div:not(#parent1)
+div:not(#parent1) {
+    background: rgb(168, 166, 175);
+}
