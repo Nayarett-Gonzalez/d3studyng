@@ -38,3 +38,7 @@ p:nth-child(2) {
 p:nth-last-child(4) {
     color: rgb(153, 32, 147);
 }
+
+span:only-of-type {
+    color: rgb(206, 199, 211);
+}
