@@ -1,0 +1,27 @@
+body {
+    background: rgb(189, 139, 139);
+}
+
+div {
+    border: 2px solid rgb(160, 90, 90);
+    margin: 20px;
+    padding: 10px;
+}
+
+p {
+    color: rgb(60, 60, 114)
+}
+
+
+/* #parent1 {
+    background: rgb(204, 189, 150);
+}
+ */
+
+#parent3 {
+    background: rgb(168, 166, 175);
+}
+
+[class] {
+    background: darkkhaki;
+}
