@@ -7,3 +7,12 @@ div {
 p {
     color: rgb(60, 60, 114)
 }
+
+p:first-child {
+    background: darksalmon;
+}
+
+p:last-child {
+    background: darkslategrey;
+    color: floralwhite;
+}
