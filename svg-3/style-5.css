@@ -1,0 +1,22 @@
+svg {
+    background: rgb(46, 48, 150);
+}
+
+g {
+    stroke: bisque;
+    fill: chartreuse;
+    /* transform: "translate(100,0)"; */
+}
+
+.one {
+    fill: none;
+    stroke: darkorange;
+    stroke-width: 2;
+}
+
+.two {
+    fill: darkturquoise;
+    stroke: darkorange;
+    stroke-width: 2;
+    opacity: .3;
+}
