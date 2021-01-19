@@ -13,7 +13,9 @@ polygon {
     opacity: .4;
 }
 
-polyline {
-    fill: none;
-    stroke: rgb(134, 192, 122);
+polyline,
+path {
+    fill: red;
+    /* stroke: rgb(134, 192, 122); */
+    stroke-width: 3;
 }
