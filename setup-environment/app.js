@@ -1,0 +1,1 @@
+d3.select("rect:nth-child(2)").style("fill", "pink");
