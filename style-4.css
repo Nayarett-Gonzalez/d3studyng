@@ -12,3 +12,8 @@ polygon {
     fill: rgb(2, 3, 94);
     opacity: .4;
 }
+
+polyline {
+    fill: none;
+    stroke: rgb(134, 192, 122);
+}
