@@ -8,11 +8,16 @@ line {
 }
 
 rect,
-circle {
+circle,
+ellipse {
     stroke: rgb(128, 66, 9);
     stroke-opacity: .7;
     stroke-width: 5;
     fill: rgb(99, 136, 26);
     fill-opacity: .3;
     /* opacity:0.5 */
+}
+
+text {
+    fill: rgb(121, 88, 28);
 }
