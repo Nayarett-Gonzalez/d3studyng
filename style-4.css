@@ -1,7 +1,14 @@
 svg {
-    background: palevioletred;
+    background: rgb(197, 26, 83);
 }
 
 polygon {
-    fill: purple
+    fill: purple;
+    stroke: seashell;
+    stroke-width: 2;
+}
+
+#one {
+    fill: rgb(2, 3, 94);
+    opacity: .4;
 }
