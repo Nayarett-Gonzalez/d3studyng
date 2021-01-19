@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Selection</title>
+</head>
+
+<body>
+    <button onclick="changeLook()">Actualizar</button>
+    <svg width="600" height="600">
+        <circle cx="50" cy="50" r="40"></circle>
+        <circle cx="140" cy="50" r="40"></circle>
+        <circle cx="230" cy="50" r="40"></circle>
+        <circle cx="320" cy="50" r="40"></circle>
+
+        <g transform="translate(20,120)">
+            <rect width="50" height="50"></rect>
+            <rect width="50" height="50" y="60"></rect>
+            <rect width="50" height="50" y="120"></rect>
+            <rect width="50" height="50" y="180"></rect>
+        </g>
+    </svg>
+    <script src="../d3/d3.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

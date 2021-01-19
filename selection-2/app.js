@@ -8,5 +8,5 @@ d3.select("#two > circle:nth-child(2)").style("fill", "purple");
 // d3.select("#three > circle:nth-child(3)").style("fill", "purple");
 d3.select("#four > circle:last-of-type").style("fill", "blue");
 
-d3.selectAll("#five > circle:nth-child(even)").style("fill", "red");
+d3.selectAll("#five > circle:nth-child(even),#three > circle:nth-child(odd)").style("fill", "red");
 d3.selectAll("#five > circle:nth-child(odd)").style("fill", "yellow");
