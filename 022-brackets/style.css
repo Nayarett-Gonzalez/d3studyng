@@ -1,0 +1,11 @@
+.changeColor {
+    fill: azure;
+    stroke: aquamarine;
+    stroke-width: 4;
+}
+
+.changeColor1 {
+    fill: rgb(216, 176, 211);
+    stroke: rgb(9, 165, 113);
+    stroke-width: 4;
+}
