@@ -9,3 +9,12 @@
     stroke: rgb(9, 165, 113);
     stroke-width: 4;
 }
+
+.boxes {
+    border: 3px solid black;
+    background: chartreuse;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    float: left;
+}

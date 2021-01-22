@@ -17,3 +17,15 @@ const changeBack = () => {
             return false;
     })
 }
+
+// const addBoxes = () => {
+//     d3.select("#parent").selectAll("div").classed("boxes", true);
+// }
+
+const addBoxes = () => {
+    d3.selectAll("#parent > div").classed("boxes", true);
+}
+
+// const addBoxes = () => {
+//     d3.selectAll("div").classed("boxes", true);
+// }

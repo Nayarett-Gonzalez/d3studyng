@@ -11,18 +11,27 @@
 <body>
     <button onclick="addClass()">CHANGE</button>
     <button onclick="changeBack()">BACK</button>
+
     <br>
-    <svg width="600" height="600">
+    <svg width="400" height="200">
         <circle cx="50" cy="50" r="40"></circle>
         <circle cx="140" cy="50" r="40"></circle>
         <circle cx="230" cy="50" r="40"></circle>
         <circle cx="320" cy="50" r="40"></circle>
  
-        <circle cx="50" cy="150" r="40"></circle>
+        <!-- <circle cx="50" cy="150" r="40"></circle>
         <circle cx="140" cy="150" r="40"></circle>
         <circle cx="230" cy="150" r="40"></circle>
-        <circle cx="320" cy="150" r="40"></circle>
+        <circle cx="320" cy="150" r="40"></circle> -->
     </svg>
+    <br><br>
+    <button onclick="addBoxes()">ADD</button>
+    <div id="parent">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
     <script src="../d3/d3.js"></script>
     <script src="app.js"></script>
 </body>
