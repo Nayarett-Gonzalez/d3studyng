@@ -9,6 +9,8 @@ const update = () => {
     // });
 
     d3.selectAll("circle").attr("cy", (d, i) => {
-        return (i * 50) * Math.random();
+        return Math.random() * (i * 50);
     });
+
+    d3.select("input[type=checkbox]").property("checked", true);
 }
