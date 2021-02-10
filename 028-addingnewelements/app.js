@@ -4,6 +4,10 @@
 // }
 
 // Se inserta un párrafo en la tercera posición
+// const addElement = () => {
+//     d3.select("#parent").insert("p", "p:nth-child(3)").text("Last Paragraph").style("font-weight", "bold");
+// }
+// Se inserta un párrafo en la primera posición
 const addElement = () => {
-    d3.select("#parent").insert("p", "p:nth-child(3)").text("Last Paragraph").style("font-weight", "bold");
+    d3.select("#parent").insert("p", "p").text("New Paragraph").style("font-weight", "bold");
 }
